@@ -1,0 +1,28 @@
+{
+  "name": "yiz-util",
+  "version": "0.0.1",
+  "description": "util package",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "weibin.shao",
+    "email": "gis_swb@163.com"
+  },
+  "repository": "/yiz-util",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "father": "^2.16.0",
+    "typescript": "^3.3.3"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6"
+  }
+}
